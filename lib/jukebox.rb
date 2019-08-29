@@ -53,4 +53,5 @@ def run(songs)
     play(songs)
   when "help"
     help 
+  else "No"
 end 
