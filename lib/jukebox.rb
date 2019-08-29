@@ -25,7 +25,7 @@ def play(songs)
   if valid 
     puts "Playing <song name>" 
   else 
-    puts 
+    puts "Invalid input, please try again"
   
 end 
 
