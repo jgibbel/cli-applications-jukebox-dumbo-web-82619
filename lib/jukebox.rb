@@ -22,7 +22,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:" 
   response = gets.strip 
-  if 0 < response.to_i < songs.length+2 
+  if 0 < response.to_i && response.to_i < songs.length+2 
     puts "Playing #{songs[response.to_i-1]}" 
   elsif songs.include?(response)
     puts "Playing #{response}"
